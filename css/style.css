@@ -337,3 +337,36 @@ footer div {
     border: 0px;
     color: beige;
 }
+
+.fondoT{
+    background-color: black;
+    color: beige;
+    text-align: center;
+    padding: 30px 110px;
+}
+
+.bloqueT div{
+    display: inline-block;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+.bloqueT h2{
+    font-size: 90px;
+    font-family: 'Lobster', cursive;
+}
+
+.bloqueT p{
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.bloqueT img{
+    padding: 30px 0px;
+}
+
+.bloqueT div span{
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
