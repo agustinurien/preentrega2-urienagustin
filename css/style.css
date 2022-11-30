@@ -137,3 +137,61 @@ header {
     width: 33.3%;
     height: 100%;
 }
+
+.todosProductos {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    padding: 50px 0px;
+    flex-wrap: wrap;
+}
+
+.productos{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Lobster', cursive;
+    color: beige;
+    font-size: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 30px;
+}
+
+.productos:hover{
+    background-color: yellow;
+    color: black;
+    padding: 2px;
+    padding-bottom: 0px;
+}
+
+.todosProductos button{
+    border: 0px;
+    width: 370px;
+    height: 370px;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.todosProductos span {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.af1 {
+    background-image: url(../img/af1.webp);
+}
+
+.blz {
+    background-image: url(../img/blazers.webp);
+}
+
+.fl {
+    background-image: url(../img/forum.webp);
+}
+
+.nb550 {
+    background-image: url(../img/newbalance.webp);
+}
