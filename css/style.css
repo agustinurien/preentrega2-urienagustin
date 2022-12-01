@@ -205,6 +205,35 @@ header {
     background-image: url(../img/newbalance.webp);
 }
 
+@media (max-width:1200px) {
+    .todosProductos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .todosProductos button {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media (max-width:768px) {
+    .todosProductos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .todosProductos button {
+        width: 320px;
+        height: 320px;
+    }
+
+    .tituloPrincipal{
+        font-size: 5rem;
+    }
+}
+
 footer {
     background-color: rgb(38, 38, 38);
     color: beige;
