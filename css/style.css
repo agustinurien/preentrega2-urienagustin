@@ -225,12 +225,12 @@ header {
     }
 
     .todosProductos button {
-        width: 320px;
-        height: 320px;
+        width: 300px;
+        height: 300px;
     }
 
     .tituloPrincipal{
-        font-size: 5rem;
+        font-size: 4.5rem;
     }
 }
 
